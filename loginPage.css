@@ -1,0 +1,88 @@
+.body {
+    background-color: aqua;
+}
+
+.title {
+    color: rgba(90, 90, 236, 0.945);
+    text-align: center;
+    padding: 5px;
+    text-indent: 3px 2px blue;
+}
+
+.btn {
+    margin-right: 40px;
+    position: relative;
+    left: 45px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.main {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+   
+
+}
+
+
+
+.inp-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#fname {
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.inp-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#pass {
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+.span{
+    position: relative;
+   right: 180px;
+}
+.spa-forg{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    
+}
+.anchor{
+    text-decoration: none;
+}
+.b{ 
+    position: relative;
+    top: 55px;
+    right: 135px;
+    
+}
+.spa-anchor{
+    position: relative;
+    top: 80px;
+    right: 140px;
+}
+#nam{
+    position: relative;
+    right: 130px;
+}
+#p{
+    position: relative;
+    right: 140px;
+}

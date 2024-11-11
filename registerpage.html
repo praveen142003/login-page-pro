@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link  rel="stylesheet" href="/Register.css" />
+    
+</head>
+
+<body>
+    <div class="external">
+
+        <div class="head">
+            <center>
+                <h2 style="color: white;"> Registration Form</h>
+            </center>
+        </div>
+        <div class="outer">
+            <form id="myRegform" action="loginpage.html" onsubmit="return(validation(local))">
+                <div class="name">
+                    <label>Name</label>
+                    <input class="box" type="text" placeholder="First name"  id="Fname" >
+                </div>
+                <div class="gen">
+                    <label>Gender</label>
+                    <span id="male">
+                        <input class="" type="radio" name="gender"><label >Male</label>
+                    </span>
+                    <span id="female">
+                        <input class="" type="radio" name="gender"><label >Female</label>
+                    </span>
+                </div>
+                <div class="mail">
+                    <label>Email</label>
+                    <input class="fulboxm" type="email" placeholder="example@gmail.com">
+                </div>
+                <div class="password">
+                    <label>password</label>
+                    <input class="pass" type="password" placeholder="Enter password"  id="Rpassword" >
+                </div>
+               
+                   <span class="conpass">
+                    <input class="pass" type="password" placeholder="Confirm password" id="conpass">
+                   </span>
+                    
+
+                <div class="bt">
+                    
+                    <button type="submit" class="btn btn-outline-dark" id="reg">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+    integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Registerjs.js"></script>
+</html>
